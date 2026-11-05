@@ -1,0 +1,54 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #302e2e;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: rgb(196, 196, 196);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #a54f4f;
+}   
+
+p, footer, article, h1{
+
+    text-align:center;
+    color:rgb(233, 230, 230)
+}
+
+article{
+    font-family: "Noto sans",sans-serif;
+    font-size: 15px;
+}
+/* background colour for h1*/ 
+body {
+  background-color: rgb(104, 17, 17);
+  color: white;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 10;
+}
+
+img {
+  border-radius: 25px;
+}
+
+body {
+ background-image: url("background.jpg");
+ background-color: #cccccc;
+ background-size: cover;
+}
+
+.pgh {
+  text-align: center;
+  background-color: rgb(87, 84, 80);
+}
